@@ -7,6 +7,5 @@ class CreateSongs < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
-    add_foreign_key :artist, :artists, column: :artist, 
   end
 end
